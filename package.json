@@ -1,0 +1,53 @@
+{
+  "name": "discord-bot-dashboard",
+  "version": "4.0.0-beta5ce2f2rRz",
+  "description": "A tool for Discord.js bot developers to manage their bot for development and final release usages.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julianYaman/discord-bot-dashboard.git"
+  },
+  "author": "Julian Yaman <mail@julianyaman.de>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julianYaman/discord-bot-dashboard/issues"
+  },
+  "contributors": [
+    "Biagio Santoro (GitHub: sleme, Twitter: @slemeee_), https://sleme.github.io/"
+  ],
+  "homepage": "https://github.com/julianYaman/discord-bot-dashboard#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chalk": "^2.4.2",
+    "discord.js": "^11.5.1",
+    "ejs": "^2.6.2",
+    "express": "^4.16.4",
+    "express-session": "^1.16.1",
+    "nodemon": "^1.19.1",
+    "jquery": "^3.4.0",
+    "performance-now": "^2.1.0",
+    "socket.io": "^2.2.0",
+    "passport": "^0.4.0",
+    "passport-discord": "^0.1.3",
+    "memorystore": "^1.6.1",
+    "helmet": "^3.20.0",
+    "url": "^0.11.0",
+    "moment": "^2.24.0",
+    "enmap": "^5.1.0",
+    "enmap-level": "^2.1.0",
+    "settings": "^0.1.1",
+    "util": "^0.12.1",
+    "fs": "^0.0.2",
+    "better-sqlite3": "^5.4.3",
+    "superagent": "^5.2.1",
+    "dbl": "^0.1.12",
+    "dblapi.js": "^2.3.0",
+    "node-bypasser": "^1.8.0",
+    "node-fetch": "^2.6.0",
+    "form-data": "^3.0.0",
+    "request-promise": "^4.2.5"
+  }
+}
